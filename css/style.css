@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 /*====== Slider======*/
@@ -12,12 +13,14 @@
     margin: auto;
     overflow: hidden;
     background-color: #9B59B6;
+    padding: 5px;
 }
 .slider .slide-track{
     display: flex;
-    animation: scroll 10s linear infinite;
-    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
     width: calc(380px*10);
+    transition: 3s ease;
 }
 .slider .slide{
     width: 380px;
@@ -50,7 +53,8 @@ span{
 /*======Menu de navegacion principal====*/
 
 .nav-principal{
-    padding-top: 10px;
+    padding: 25px;
+    
     padding-left: 60px;
     padding-right: 60px;
 
@@ -71,4 +75,26 @@ input{
    
     
 }
+
+/* ========= sub nav =========*/
+.sub-nav{
+   padding-right: 55px;
+   padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.detalleschiky{
+    display: flex;
+}
+
+.aliados{
+    display: flex;
+}
+.det-info{
+    padding: 10px;
+}
+.det-aliados{
+    padding: 10px;
+}
+
 
