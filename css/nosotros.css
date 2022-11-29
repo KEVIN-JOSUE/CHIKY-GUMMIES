@@ -1,0 +1,138 @@
+
+.contenedor-info-somos{
+    background: #1b3d6db4;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.title-info-somos{
+    text-align: center;
+    font-size: 25px;
+}
+.parrafo-info-somos{
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+.contenedor{
+background-color: rgb(73, 73, 158);
+height: 50vh;
+margin: 5%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: rgb(161, 72, 161) 20px solid;
+margin: 20px
+}   
+.buttom-info-somos{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.button-info{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    background: purple;
+    color: aliceblue;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 25px;
+    width: 22rem;
+}
+
+/*.button span {
+
+    position: absolute ;
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+    background: green;
+    top: -50%;
+    left: -100%;
+    transition: .3s;
+}*/
+
+
+
+
+
+
+.container-info-horizontal{
+    
+    display : flex;
+   background-color:rgba(54, 51, 51, 0.116);
+   padding: 30px;
+   margin: 13px 20px;
+   padding-left: 6%;
+    padding-right: 6%;
+ }
+
+.parrafo-info1{
+    padding: 10px;
+    
+}
+.parrafo-info1 p{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+    
+}
+.parrafo-info2{
+   
+    background: pink ;
+    border-radius: 7px;
+}
+.parrafo-info2 p{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+}
+.container-gomitas-vertical{
+    
+    display : flex;
+   background-color:rgba(54, 51, 51, 0.116);
+   padding: 30px;
+   margin: 13px 20px;
+   padding-left: 6%;
+    padding-right: 6%;
+ }
+
+.parrafo-gomitas1{
+    padding: 10px;
+    background: pink ;
+    border-radius: 7px;
+}
+.parrafo-gomitas1 p{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+    
+}
+
+.parrafo-gomitas2 p{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+}
