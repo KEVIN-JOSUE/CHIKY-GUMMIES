@@ -45,7 +45,7 @@ let contenedor=document.querySelector('.shop-items');
 
 
 stockProductos.forEach((prod)=>{
-    const{id,nombre,precio,img}=prod
+    const{nombre,precio,img}=prod
     contenedor.innerHTML +=`
     <div class="shop-item">
     <div class="shop-item-content-img">
@@ -54,7 +54,7 @@ stockProductos.forEach((prod)=>{
     <span class="shop-item-title">${nombre}</span>
     <span class="shop-item-price">s/ ${precio}.00</span>
     <div class="shop-item-details">
-        <button class="shop-item-button">ADD CART</button>
+        <button class="shop-item-button HOLA">ADD CART</button>
         <button class="shop-item-button">INFO</button>
     </div>
 </div>
@@ -62,6 +62,12 @@ stockProductos.forEach((prod)=>{
 })
 
 
+
+let button = document.querySelector('.HOLA')
+
+button.addEventListener('click', () =>{
+    location.href="quienessomos.html"
+})
 
 togle.onclick=function(){
     container.classList.toggle('active');
