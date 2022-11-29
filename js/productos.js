@@ -9,19 +9,19 @@ const stockProductos = [
         id: 2,
         nombre: "gomitas",
         precio: 60.00,
-        img: "./assets/productos.png",
+        img: "./assets/prod2.11s.png",
     },
     {
         id: 3,
         nombre: "gomitas",
         precio: 50.00,
-        img: "./assets/productos.png",
+        img: "./assets/prod3.1.png",
     },
     {
         id: 4,
         nombre: "gomitas",
         precio: 100.00,
-        img: "./assets/productos.png",
+        img: "./assets/prod4.1.png",
     },
     {
         id: 5,
@@ -44,6 +44,7 @@ let contenedor=document.querySelector('.shop-items');
 
 
 
+
 stockProductos.forEach((prod)=>{
     const{nombre,precio,img}=prod
     contenedor.innerHTML +=`
@@ -54,21 +55,21 @@ stockProductos.forEach((prod)=>{
     <span class="shop-item-title">${nombre}</span>
     <span class="shop-item-price">s/ ${precio}.00</span>
     <div class="shop-item-details">
-        <button class="shop-item-button HOLA">ADD CART</button>
-        <button class="shop-item-button">INFO</button>
+        <button class="shop-item-button">ADD CART</button>
+        <button class="shop-item-button info">INFO</button>
     </div>
 </div>
     `
 })
 
 
+let button= document.querySelector('.info') 
+button.addEventListener('click',()=>{
+    location.href="infoproduct.html"
+}) 
 
-let button = document.querySelector('.HOLA')
-
-button.addEventListener('click', () =>{
-    location.href="quienessomos.html"
-})
 
 togle.onclick=function(){
     container.classList.toggle('active');
 }
+
