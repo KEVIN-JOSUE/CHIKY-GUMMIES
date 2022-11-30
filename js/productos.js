@@ -150,21 +150,9 @@ function agregarProducto(id){
     })
    })
 
-  
-        
- 
-    
-    
+       
 
 }
-
-
-
-
-
-
-
-
 
 
 
