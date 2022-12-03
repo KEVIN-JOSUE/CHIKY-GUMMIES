@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.contact_container{
+    background: #9B59B6;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    width: 90%;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+
+
+.contact_aside{
+    background: #C6C0F4;
+    
+    padding: 3rem;
+    padding-bottom: 17rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+    
+}
+.aside_image{
+    width: 12rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.contact_aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+    color: white;
+}
+.contact_aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.contact_details li{
+display: flex;
+gap: 1rem;
+align-items: center;
+margin-bottom: 1rem;
+}
+.contact_socials{
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+.contact_socials a{
+    background: purple;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: 1s ease;
+}
+.contact_socials a:hover{
+    background: white;
+}
+
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+    padding-left: 5rem;
+    /* border: 1px solid black; */
+}
+ /* .form_name{
+    display: flex;
+    gap: 1.2rem;
+} */
+/* .contact_form input[type="text"] {
+    width: 50%;
+}  */
+input{
+    width: 80%;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    color:  #9B59B6;
+}
+.login{
+    cursor: pointer;
+    font-weight: 700;
+    background: #13DBDB;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.btn{
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #F4A55D;
+    width: 45%;
+    padding: 15px;
+    margin-top: 2rem;
+    color:white;
+    margin-left: 6rem;
+    
+}
+.olvidaste{
+    padding: 0.5rem;
+    margin-right: 5rem;
+    color: #4f2d5c;
+    transition: 1s ease;
+  
+}
+.olvidaste:hover{
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 740px){
+    .contact{
+        padding-bottom: 0;
+    }
+    .contact_container{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+        width: 100%;
+
+    }
+    .contact_aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+
+    }
+    .contact_form{
+        align-self: center;
+        margin-right: 0.5rem;
+        /* border: 1px solid black; */
+    }
+}
+
+
+/* phone */
+
+@media screen and (max-width: 550px){
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+       
+        
+
+    }
+    .olvidaste{
+        margin-left: -1.5rem;
+        width: 100%;
+    }
+    .btn{
+        margin-left: 3rem;
+    }
+    /* .contact_form{
+        margin: 20 10.5rem 0.2rem;
+    } */
+    .form_name{
+        flex-direction: column;
+    }
+    /* .form_name input[type="text"]{
+        width: 100%;
+    } */
+}
