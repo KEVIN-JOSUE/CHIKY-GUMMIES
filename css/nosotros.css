@@ -126,3 +126,155 @@ margin: 20px
     padding-right: 15%;
     padding: 10%;
 } 
+
+.titulo {
+   display: flex;
+   justify-content: center;
+   height: 90px;
+   font-size: 50px;
+}
+
+.acerca{
+ color: red;
+}
+.de{
+ color: orangered;
+}
+.nuestro{
+  color: green;
+}
+.producto{
+  color: blueviolet;
+}
+
+
+.padre{
+    display : flex;
+    padding: 30px;
+    margin: 13px 20px;
+    padding-left: 6%;
+     padding-right: 6%;
+    
+}
+
+.padre p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+}
+
+.hijo1{
+    
+    background-color:rgba(54, 51, 51, 0.116);
+    margin: 50px;
+    border-radius: 35px;
+}
+
+.hijo2{
+    background-color:rgba(54, 51, 51, 0.116);
+  margin: 50px;
+  border-radius: 35px;
+
+}
+
+.madre{
+    display: flex;
+    padding: 30px;
+    margin: 13px 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.madre p{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 10%;
+}
+
+.hija1{
+    background-color:rgba(54, 51, 51, 0.116);
+  margin: 50px;
+  border-radius: 35px;
+
+}
+
+.hija2{
+    background-color:rgba(54, 51, 51, 0.116);
+  margin: 50px;
+  border-radius: 35px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-cita{
+    height: 1200px;
+    width: 100%;
+    background-color:rgba(54, 51, 51, 0.116);
+    padding: 130px;
+    margin: 13px 20px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.form-cita h4{
+    font-size: 32px;
+    
+    
+}
+
+.controls {
+    margin-top: 20px;
+    margin-left: 720px;
+    width: 50%;
+    background: rgb(245, 245, 252);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.control{
+    margin-top: 20px;
+    margin-left: 720px;
+    width: 50%;
+    background: rgb(245, 245, 252);
+    padding: 100px; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    max-width: 100%;
+    height: 5rem;
+    max-height: 15rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    
+}
+
+.botons {
+    color: azure;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 60%;
+    width: 320px;
+    background: rgb(109, 66, 179);
+    padding: 9px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.parra {
+    margin-left: 720px;
+    font-size: 20px;
+}
