@@ -72,3 +72,25 @@
 .popup form .btn-submit:hover{
     background-color: #9c59b6d0;
 }
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes-option{
+    border: 1px solid #bbbbbb;
+    margin: 15px;
+    padding: 10px;
+}
+.redes-option span{
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recuperar-contraseña{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
