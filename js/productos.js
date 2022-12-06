@@ -75,6 +75,7 @@ let mostrarCarrito =()=>{
          
         
         `
+        togle.textContent=carrito.length
         updateNumberOfItems()
         getTotal()
         
