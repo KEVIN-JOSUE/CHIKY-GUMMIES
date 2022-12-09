@@ -157,7 +157,7 @@ p{
   border: 1px solid transparent;
 }
 .anuncios-content{
-  
+  border: 1px solid transparent;
   box-shadow:  0 0 0.3rem rgba(0, 0, 0, 0.5);
   margin: 50px;
   margin-left: 0px;
@@ -215,4 +215,68 @@ p{
 }
 .btn-1:hover{
   box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
+}
+
+
+@media screen and (max-width: 550px) {
+  .home-child{
+    display: flex;
+    flex-direction: column;
+  }
+  .child-img .chil-img-1{
+   width: 1px;
+   height: 1px;
+   visibility: hidden;
+  }
+  .home-redes{
+    margin-bottom: 30px;
+  }
+  .father-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .anuncios-child-timg .fecha{
+    text-align: center;
+    font-size: 15px;
+  }
+  .anuncios-child-timg .timg-title{
+    font-size: 15px;
+    text-align: center;
+  }
+  .anuncios-child-timg .sub-title{
+    font-size: 15px;
+  
+  }
+  .anuncios-child-timg .description{
+    font-size: 15px;
+  }
+  .anuncios-child-timg .img0{
+    height: 200px;
+  width: 250px;
+  }
+  .anuncios-imgFather .img1{
+    height: 120px;
+    width: 170px;
+  }
+  .anuncios-imgFather .img2{
+    height: 55px;
+    width: 80px;
+  }
+  .anuncios-imgFather .img3{
+    height: 55px;
+    width: 80px;
+  }
+  .anuncios-content{
+    margin: 5px;
+    
+    
+  }
+  .course_image img{
+    width: 310px;
+    height: 200px;
+  }
+  .btn-1{
+    margin: 0;
+  }
+
 }

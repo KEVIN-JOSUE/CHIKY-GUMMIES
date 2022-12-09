@@ -15,7 +15,33 @@
 .overlay.active{
     visibility:visible ;
 }  
+.overlay1{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.overlay1.active{
+    visibility:visible ;
+}  
+
+
 .popup{
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    z-index: 100;
+}
+.popup1{
     padding: 20px;
     text-align: center;
     width: 450px;
@@ -35,7 +61,25 @@
 .btn-cerrar-popup:hover{
     color: black;
 }
+.btn-cerrar-popup1{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .2s ease all;
+}
+.btn-cerrar-popup1:hover{
+    color: black;
+}
+
 .popup h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* opacity: 0; */
+}
+.popup1 h3{
     font-size: 23px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -46,6 +90,16 @@
     cursor: pointer;
 }
 .popup form  .contenedor-inputs input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    outline: none;
+}
+.popup1 form  .contenedor-inputs input{
     width: 100%;
     margin-bottom: 20px;
     height: 52px;
@@ -68,8 +122,24 @@
     cursor: pointer;
     transition: .3 ease all;
 }
-
 .popup form .btn-submit:hover{
+    background-color: #9c59b6d0;
+}
+.popup1 form .btn-submit{
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    background-color: #9B59B6;
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+
+.popup1 form .btn-submit:hover{
     background-color: #9c59b6d0;
 }
 .option{

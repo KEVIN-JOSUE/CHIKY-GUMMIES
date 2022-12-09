@@ -1,3 +1,4 @@
+//const modal =new bootstrap.Modal('#modal')
 const stockProductos = [
     {
         id: 1,
@@ -55,6 +56,7 @@ let contenedor=document.querySelector('.shop-items');
 
 
 
+
 let mostrarCarrito =()=>{
     let modalBody=document.querySelector('.cart-items')
     modalBody.innerHTML=''
@@ -94,7 +96,7 @@ stockProductos.forEach((prod)=>{
     <span class="shop-item-price">s/ ${precio}.00</span>
     <div class="shop-item-details">
         <button class="shop-item-button" onclick="agregarProducto(${id})">ADD CART</button>
-        <button class="shop-item-button info">INFO</button>
+        <button class="shop-item-button " id="verProductoModal">INFO</button>
         
     </div>
 </div>
@@ -152,10 +154,13 @@ function agregarProducto(id){
 
 }
 
-let button= document.querySelector('.info') 
-button.addEventListener('click',()=>{
-    location.href="infoproduct.html"
-}) 
+// let button= document.querySelector('.info') 
+// button.addEventListener('click',()=>{
+//     location.href="infoproduct.html"
+// }) 
+// function verProducto(id){
+//  console.log(id)
+// }
 
 
 
