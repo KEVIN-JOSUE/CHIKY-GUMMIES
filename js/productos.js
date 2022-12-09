@@ -86,7 +86,7 @@ let mostrarCarrito =()=>{
 stockProductos.forEach((prod)=>{
     const{id,nombre,precio,img}=prod
     contenedor.innerHTML +=`
-    <div class="shop-item">
+    <div class="shop-item" id="${id}">
     <div class="shop-item-content-img">
         <img src="${img}" class="shop-item-img">
     </div>
@@ -95,14 +95,11 @@ stockProductos.forEach((prod)=>{
     <div class="shop-item-details">
         <button class="shop-item-button" onclick="agregarProducto(${id})">ADD CART</button>
         <button class="shop-item-button info">INFO</button>
+        
     </div>
 </div>
     `
 })
-
-
-
-
 
 
 
@@ -155,6 +152,10 @@ function agregarProducto(id){
 
 }
 
+let button= document.querySelector('.info') 
+button.addEventListener('click',()=>{
+    location.href="infoproduct.html"
+}) 
 
 
 
@@ -170,10 +171,6 @@ function eliminarProducto(id){
 
 
 
-let button= document.querySelector('.info') 
-button.addEventListener('click',()=>{
-    location.href="infoproduct.html"
-}) 
 
 
 togle.onclick=function(){
