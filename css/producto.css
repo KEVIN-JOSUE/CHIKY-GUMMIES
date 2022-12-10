@@ -14,6 +14,8 @@
 
 .shop-item {
     margin: 60px;
+    padding-top: 20px;
+    box-shadow:  0 0 0.2rem rgba(0, 0, 0, 0.5);
 
     /* border: 1px solid rgb(216, 14, 14);  */
 }
@@ -164,8 +166,8 @@ p {
     transition: 1s ease;
     opacity: 0;
     border: 2px solid #480ca880;
-
-    /* border: 1px solid black; */
+/* 
+    border: 1px solid black; */
 
 }
 
@@ -222,6 +224,7 @@ p {
 
 .cart-row {
     display: flex;
+   
     /* border:1px solid black; */
 
 }
