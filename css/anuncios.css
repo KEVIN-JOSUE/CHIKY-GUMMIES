@@ -210,7 +210,7 @@ p{
   
 }
 .imgFather-1{
-  display: flex;
+  display: flex; 
   flex-direction: column;
 }
 
