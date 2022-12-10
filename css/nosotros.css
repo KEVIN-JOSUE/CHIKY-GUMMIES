@@ -560,6 +560,7 @@ margin: 20px
     margin: 70px;
     grid-template-columns: 47% 47%;
     gap: 6%;
+
   }
   #appointment .container .info {
     position: relative;
@@ -613,12 +614,12 @@ margin: 20px
   article .info_icon-1  .img-servi{
     width: 30px;
     height: 30px;
-   
+    
   }
   article .info_icon-2  .img-servi{
     width: 30px;
     height: 30px;
-   
+    
   }
 
 
@@ -626,6 +627,7 @@ margin: 20px
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
+    
   }
   #appointment .container form .form_group label {
     font-size: 0.85rem;
@@ -634,6 +636,7 @@ margin: 20px
     display: inline-block;
     font-weight: 600;
     color: gray;
+    
   }
   #appointment .container form .form_group input,
   #appointment .container form .form_group textarea,
@@ -664,4 +667,19 @@ margin: 20px
   .btn-primary:hover {
     background: #9B59B6;
     box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
+  }
+
+
+
+  @media screen and (max-width: 550px) {
+    #appointment .container {
+      grid-template-columns: 1fr;
+    }
+    #appointment .container .info h2, #appointment .container .info p {
+      text-align: center;
+    }
+    #appointment .container form  {
+    
+      margin-bottom: 4rem;
+    }
   }
