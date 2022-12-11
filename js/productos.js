@@ -24,21 +24,21 @@ const stockProductos = [
     {
         id: 4,
         nombre: "wegwegweg",
-        precio: 100.00,
+        precio: 50.00,
         img: "./assets/prod4.1.png",
         cantidad:1
     },
     {
         id: 5,
         nombre: "ewwetwe",
-        precio: 120.00,
+        precio: 50.00,
         img: "./assets/productos.png",
         cantidad:1
     },
     {
         id: 6,
         nombre: "qwrqsadsx",
-        precio: 70.00,
+        precio: 50.00,
         img: "./assets/productos.png",
         cantidad:1
     },

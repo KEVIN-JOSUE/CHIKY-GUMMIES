@@ -119,7 +119,13 @@ label{
 .slider-publicidad li img{
   width: 100%;
 }
-
+@media(max-width:449px){
+  .slider-publicidad{
+    width: 100%;
+    margin: auto;
+    height: 180px;   
+  }
+}
 
 @keyframes slider{
   0% {margin-left: 0%;}
