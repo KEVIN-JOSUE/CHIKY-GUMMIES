@@ -2,43 +2,43 @@
 const stockProductos = [
     {
         id: 1,
-        nombre: "gomitas",
+        nombre: "Gomitas sabor - Mix",
         precio: 58.00,
         img: "./assets/productos.png",
         cantidad:1
     },
     {
         id: 2,
-        nombre: "rgewrgerwh",
-        precio: 60.00,
+        nombre: "Gomitas sabor - Uva",
+        precio: 50.00,
         img: "./assets/prod2.11s.png",
         cantidad:1
     },
     {
         id: 3,
-        nombre: "gomiwegew",
+        nombre: "Gomitas sabor - Fresa",
         precio: 50.00,
         img: "./assets/prod3.1.png",
         cantidad:1
     },
     {
         id: 4,
-        nombre: "wegwegweg",
+        nombre: "Gomitas sabor - Naranja",
         precio: 50.00,
         img: "./assets/prod4.1.png",
         cantidad:1
     },
     {
         id: 5,
-        nombre: "ewwetwe",
-        precio: 50.00,
+        nombre: "Gomitas sabor - Mix",
+        precio: 58.00,
         img: "./assets/productos.png",
         cantidad:1
     },
     {
         id: 6,
-        nombre: "qwrqsadsx",
-        precio: 50.00,
+        nombre: "Gomitas sabor - Mix",
+        precio: 58.00,
         img: "./assets/productos.png",
         cantidad:1
     },
@@ -51,6 +51,8 @@ let totalElement=document.querySelector('.cart-total-price');
 let container=document.querySelector('.container-1');
 let togle=document.querySelector('#togle');
 let contenedor=document.querySelector('.shop-items');
+
+
 
 
 
@@ -96,7 +98,7 @@ stockProductos.forEach((prod)=>{
     <span class="shop-item-price">s/ ${precio}.00</span>
     <div class="shop-item-details">
         <button class="shop-item-button" onclick="agregarProducto(${id})">ADD CART</button>
-        <button class="shop-item-button " id="verProductoModal">INFO</button>
+        <button class="shop-item-button info"  >INFO</button>
         
     </div>
 </div>
@@ -154,13 +156,13 @@ function agregarProducto(id){
 
 }
 
-// let button= document.querySelector('.info') 
-// button.addEventListener('click',()=>{
-//     location.href="infoproduct.html"
-// }) 
-// function verProducto(id){
-//  console.log(id)
-// }
+ let button= document.querySelector('.info') 
+ button.addEventListener('click',()=>{
+     location.href="infoproduct.html"
+ }) 
+ function verProducto(id){
+  console.log(id)
+ } 
 
 
 

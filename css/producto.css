@@ -160,9 +160,9 @@ p {
     top: 25%;
     left: 69%;
     margin: 0 auto;
-    background: white;
+   background: white; 
     padding: 0;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: 1s ease;
     opacity: 0;
     border: 2px solid #480ca880;
@@ -197,8 +197,7 @@ p {
     padding-bottom: 15px;
     padding-top: 15px;
     background: #9B59B6;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-radius: 10px 10px 0px 0;
 
 }
 
